@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sistema de Informação 1 Cadastro</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/formatacao.css">
+
+
+    <link href="css/blog-post.css" rel="stylesheet">
+
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">A disciplina</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="cadastro.html">Realizando Cadastro</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+<div class="container">
+    <center>
+        <div id="BoxForm">
+            <h1><font size="100"; color="blue"> Dados do Usuário</font></h1>
+
+            <form action="obrigado.html" method="post" id="cadastro">
+                <ul>
+                    <p><label for="cNome"><strong>Nome:</strong></label>  <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome do Usuário"/> </p>
+
+                    <p><label for="cSobrenome"><strong>Sobrenome:</strong></label> <input type="text" name="tSobrenome" id="cSobrenome" size="30" maxlength="30" placeholder="Sobrenome do Usuário"/> </p>
+                    <p><label for="cMatricula"><strong>Matrícula:</strong></label> <input type="text" name="tMatricula" id="cMatricula" size="30" maxlength="15" placeholder="Matrícula do Usuário"/> </p>
+                    <p><label for="cEndereço"><strong>Endereço:</strong></label> <input type="text" name="tEndereço" id="cEndereço" size="30" maxlength="50" placeholder="Endereço do Usuário"/> </p>
+
+                    <p><label for="cEmail"><strong>Email:</strong></label> <input type="email" name="tEmail" id="cEmail" size="30" maxlength="45" placeholder="Email do Usuário"/></p>
+
+                    <p><label for="cSenha"><strong>Senha:</strong></label> <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+
+                    <fieldset id="sexo"> <legend>Sexo</legend>
+
+                        <input type="radio" name="tSexo" id="cMasc"/> <label for="cMasc"><strong>Masculino</strong></label><br/>
+                        <input type="radio" name="tSexo" id="cFem" /> <label for="cFem"> <strong>Feminino</strong></label>
+
+                        <p><label for="tData"> <strong>Data de Nascimento:</strong></label> <input type="date" name="cData" id="tData"/></p>
+
+                    </fieldset>
+
+                    <li>
+                        <input type="submit" id="send_message" value="Realizar Cadastro" onclick="window.open('obrigado.html','_parent')" />
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+    </center>
+</div>
+<hr>
