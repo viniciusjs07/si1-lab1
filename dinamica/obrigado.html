@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <title>Sistema de Informação 1 Obrigado</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/formatacao.css">
+
+
+    <link href="css/blog-post.css" rel="stylesheet">
+    <script>
+        $(function() {
+            document.getElementById("cAssunto").onkeypress = function(e) {
+                if (e.keyCode == 13) {
+                    addElement();
+                    e.preventDefault();
+                }
+            }
+        });
+
+
+        function addElement() {
+            $("#cTable").append(
+                    "<tr width=80% height=30% align=center>"
+                    + "<td>"
+                    + document.getElementById("cAssunto").value
+                    + "</td>"
+                    + "<td><button class='btnMover' width='16px' heidth='16px' title='Mover'>Aprendi o Assunto</button>"
+                    + "<button class='btnExcluir' width='16px' heidth='16px' title='Excluir'>Excluir Assunto</button></td>"
+                    + "</tr>");
+
+            $(".btnMover").bind("click", mover);
+            $(".btnExcluir").bind("click", excluir);
+
+        };
+
+        function mover() {
+            var valor = $(this).parent().parent();
+            $("#aprendiTable").append(valor);
+            $(".btnExcluir").bind("click", excluir);
+        };
+
+        function excluir() {
+            var par = $(this).parent().parent();
+            par.remove();
+        };
+    </script>
+
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Navegação</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">A disciplina</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="cadastro.html">Cadastro</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+
+<div class="">
+    <center>
+        <h1><font size="50" color="blue"> Obrigado por se Cadastrar.</font></h1>
+        <img src="http://upload.wikimedia.org/wikipedia/commons/2/2e/Oxygen480-emotes-face-smile-big.svg">
+        <p> Cadastro realizado com sucesso.<br/>
+            Clique <a href="index.html">nesse link</a> para voltar a página inicial.
+        </p>
+    </center>
+    <label for="cAssunto"><strong>Assunto:</strong></label> <input type="text" name="tAssunto" id="cAssunto" size="30" maxlength="60" placeholder="Assunto"/>
+    <button onclick="addElement()">Adicionar Assunto</button>
+
+    <div class="control-group">
+        <table id="cTable"><strong>Para Aprender</strong></table>
+    </div>
+
+    <div class="control-group">
+        <br>
+
+        </br>
+        <table id="aprendiTable" title="Aprendidos"><strong>Aprendidos</strong></table>
+    </div>
+
+</div>
+
+
+<script src="js/jquery-1.11.0.js"></script>
+
+
+<script src="js/bootstrap.min.js"></script>
+<div class="footer">
+    <p> &copy; SI 1 (2015.1) - Lab 1 </p>
+</div>
+
+</body>
+
+</html>
