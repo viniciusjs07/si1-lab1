@@ -27,28 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10211267" vertical-offset="724" max-vertical-offset="1292">
+            <state vertical-scroll-proportion="0.125" vertical-offset="711" max-vertical-offset="1292">
               <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="obrigado.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/obrigado.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.884615" vertical-offset="1459" max-vertical-offset="2414">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cadastro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.076923" vertical-offset="775" max-vertical-offset="1632">
-              <caret line="61" column="89" selection-start-line="60" selection-start-column="20" selection-end-line="61" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -88,7 +68,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -109,11 +88,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../estatica-bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
@@ -124,14 +104,10 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -139,6 +115,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -582,25 +562,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obrigado.html">
+    <entry file="file://$PROJECT_DIR$/cadastro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.884615" vertical-offset="1459" max-vertical-offset="2414">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="15" />
+        <state vertical-scroll-proportion="1.8257042" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="61" column="89" selection-start-line="60" selection-start-column="20" selection-end-line="61" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
+    <entry file="file://$PROJECT_DIR$/obrigado.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.076923" vertical-offset="775" max-vertical-offset="1632">
-          <caret line="61" column="89" selection-start-line="60" selection-start-column="20" selection-end-line="61" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.44406196" vertical-offset="711" max-vertical-offset="2414">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10211267" vertical-offset="724" max-vertical-offset="1292">
+        <state vertical-scroll-proportion="0.125" vertical-offset="711" max-vertical-offset="1292">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
